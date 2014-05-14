@@ -91,7 +91,7 @@
 }
 
 /* line 24, ../scss/partials/_buttons.scss */
-.button {
+.gt-button {
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
@@ -121,7 +121,7 @@
   text-align: center;
 }
 /* line 42, ../scss/partials/_buttons.scss */
-.button:hover .button:focus {
+.gt-button:hover .gt-button:focus {
   background-color: #eeeeee;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
   background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
@@ -130,7 +130,7 @@
   background: linear-gradient(top, #ffffff, #dcdcdc);
 }
 /* line 46, ../scss/partials/_buttons.scss */
-.button:active {
+.gt-button:active {
   -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
   -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
@@ -139,12 +139,12 @@
   color: #bbbbbb;
 }
 /* line 52, ../scss/partials/_buttons.scss */
-.button:focus {
+.gt-button:focus {
   outline: none;
 }
 
 /* line 58, ../scss/partials/_buttons.scss */
-input.button, button.button {
+input.button, button.gt-button {
   height: 34px;
   cursor: pointer;
   -webkit-appearance: none;
@@ -156,12 +156,12 @@ input.button, button.button {
 }
 
 /* line 74, ../scss/partials/_buttons.scss */
-.button.disabled,
-.button.disabled:hover,
-.button.disabled:focus,
-.button.disabled:active,
-input.button:disabled,
-button.button:disabled {
+.gt-button.disabled,
+.gt-button.disabled:hover,
+.gt-button.disabled:focus,
+.gt-button.disabled:active,
+input.gt-button:disabled,
+button.gt-button:disabled {
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
@@ -1384,33 +1384,33 @@ button.button:disabled {
   display: inline-block;
 }
 /* line 354, ../scss/partials/_buttons.scss */
-.button-group .button {
+.button-group .gt-button {
   float: left;
 }
 /* line 356, ../scss/partials/_buttons.scss */
-.button-group .button:focus, .button-group .button:hover, .button-group .button.active {
+.button-group .gt-button:focus, .button-group .gt-button:hover, .button-group .gt-button.active {
   z-index: 5;
 }
 /* line 359, ../scss/partials/_buttons.scss */
-.button-group .button.active {
+.button-group .gt-button.active {
   background: gainsboro;
 }
 /* line 363, ../scss/partials/_buttons.scss */
-.button-group .button:not(:first-child):not(:last-child) {
+.button-group .gt-button:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
 /* line 366, ../scss/partials/_buttons.scss */
-.button-group .button:first-child {
+.button-group .gt-button:first-child {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 /* line 370, ../scss/partials/_buttons.scss */
-.button-group .button:last-child {
+.button-group .gt-button:last-child {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 /* line 376, ../scss/partials/_buttons.scss */
-.button-group .button + .button {
+.button-group .gt-button + .gt-button {
   margin-left: -1px;
 }
 
@@ -1462,7 +1462,7 @@ input.button-tiny, button.button-tiny {
 }
 
 /* line 441, ../scss/partials/_buttons.scss */
-.button.glow {
+.gt-button.glow {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
   -ms-animation-duration: 3s;
@@ -1482,7 +1482,7 @@ input.button-tiny, button.button-tiny {
   animation-name: glowing;
 }
 /* line 444, ../scss/partials/_buttons.scss */
-.button.glow:active {
+.gt-button.glow:active {
   -webkit-animation-name: none;
   -moz-animation-name: none;
   -ms-animation-name: none;
@@ -1500,7 +1500,7 @@ input.button-tiny, button.button-tiny {
   display: inline-block;
 }
 /* line 463, ../scss/partials/_buttons.scss */
-.button-dropdown .button .icon-caret-down {
+.button-dropdown .gt-button .icon-caret-down {
   font-size: 90%;
   margin: 0px 0px 0px 3px;
   vertical-align: middle;
